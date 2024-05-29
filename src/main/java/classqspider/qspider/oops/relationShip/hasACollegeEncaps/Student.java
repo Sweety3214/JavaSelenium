@@ -1,11 +1,19 @@
 package classqspider.qspider.oops.relationShip.hasACollegeEncaps;
 
-public class Student {
+public class Student {  //child
     String girls;
     String boys;
     String gName;
     String bName;
-    College college = new College();
+
+
+
+    public void setCname(String cname) {
+        this.cname = cname;
+    }
+
+    String cname;
+    College college = new College(new Student());
 
     public String getGirls() {
         return girls;

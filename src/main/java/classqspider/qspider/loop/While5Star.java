@@ -8,6 +8,6 @@ public class While5Star {
             System.out.print("*" + " ");
             star++;
         }
-
+        System.out.println("*");
     }
 }

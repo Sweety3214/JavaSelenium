@@ -3,7 +3,7 @@ package classqspider.qspider.oops.encapsulation;
 public class Phone {
     private String pw;
     private String gallery;
-    private String wChat;
+   private String wChat;
 
     public Phone(String pw) {
         this.pw = pw;

@@ -11,7 +11,9 @@ public class SwapNum {
         c = a; //a=30 b=40 c=30
         a = b; //a=40 b=40 c=30
         b = c; // a=40 b=30 c=30
-        return c;
+
+        int f = 0;
+        return 0;
 
     }
 
