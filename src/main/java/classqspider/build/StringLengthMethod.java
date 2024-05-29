@@ -14,6 +14,7 @@ public class StringLengthMethod {
         for(int i=0; i<ch.length;i++){
             System.out.println(ch[i]);
         }
+
         String name="banu";
         char[] ch1=name.toCharArray();
         for(int j=0; j<ch1.length;j++){
